@@ -38,7 +38,7 @@ int main() {
 
   char text[20] = {0};
   const char* key = "leetsp33k";
-  strncpy(text, "Yo ho ho and a bottle fo rum!", 19);
+  strncpy(text, "Yo ho ho and a bottle of rum!", 19);
 
   xor_encode(text, _strlen(text), key, _strlen(key));
 
